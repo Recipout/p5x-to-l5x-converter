@@ -1,0 +1,65 @@
+P5X TO L5X CONVERTER - QUICK START
+
+FOLDER STRUCTURE REQUIRED:
+Desktop/
+├── p5x_test/
+│   ├── ProjectFile1.p5x
+│   └── ProjectFile2.p5x
+├── l5x_output/
+│   (extracted .l5x files appear here)
+└── p5x_to_l5x.py
+
+SETUP STEPS:
+1. Verify Python 3.6+ installed: python --version
+2. Create Desktop/p5x_test folder
+3. Create Desktop/l5x_output folder
+4. Copy .p5x files to Desktop/p5x_test
+5. Save p5x_to_l5x.py to Desktop
+6. Run: python "%USERPROFILE%\Desktop\p5x_to_l5x.py"
+7. Check Desktop/l5x_output for extracted .l5x files
+
+EXECUTION:
+Command Prompt: python "%USERPROFILE%\Desktop\p5x_to_l5x.py"
+File Explorer: Right-click p5x_to_l5x.py → Open with → Python
+
+OUTPUT VERIFICATION:
+- Script displays: "Found N P5X file(s)"
+- Script displays: "EXTRACTION COMPLETE"
+- Script displays extracted file names and sizes
+- .l5x files appear in Desktop/l5x_output
+
+ERRORS AND SOLUTIONS:
+"python is not recognized"
+- Install Python from https://www.python.org/downloads/
+- Check "Add Python to PATH" during installation
+- Restart computer
+
+"Folder not found"
+- Verify Desktop/p5x_test exists
+- Verify correct spelling (lowercase, no spaces)
+
+"No .p5x files found"
+- Verify .p5x files in Desktop/p5x_test
+- Verify .p5x extension (not .p5x.zip)
+
+"No L5X found inside"
+- .p5x file is corrupted or invalid format
+- Test file with 7-Zip or WinRAR to verify contents
+
+"BadZipFile"
+- .p5x file is corrupted
+- Re-obtain .p5x file
+
+TESTING WITH PLC COPILOT:
+1. Open PLC Copilot
+2. Import .l5x file from Desktop/l5x_output
+3. Verify ladder logic appears
+4. Verify all rungs visible
+5. Run simulation/test
+6. Document results
+
+TECHNICAL DETAILS:
+- P5X files: ZIP archives containing L5X + metadata
+- L5X files: XML-based Logix Designer project format
+- Conversion process: Extract, do not modify
+- No file conversion occurs; extraction only
