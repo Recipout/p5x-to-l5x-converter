@@ -1,0 +1,88 @@
+P5X TO L5X CONVERTER - TESTING LOG
+
+Test Session: [DATE] [TIME]
+Operator: [NAME]
+System: Windows [VERSION]
+Python Version: [VERSION]
+
+TEST 1: SETUP VERIFICATION
+- Python installed: YES / NO
+- Python version: [X.X.X]
+- Desktop/p5x_test folder created: YES / NO
+- Desktop/l5x_output folder created: YES / NO
+- p5x_to_l5x.py saved: YES / NO
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+TEST 2: FILE PREPARATION
+- Number of .p5x files: [N]
+- File 1 name: [FILENAME]
+- File 1 size: [SIZE]
+- File 2 name: [FILENAME]
+- File 2 size: [SIZE]
+- Files in Desktop/p5x_test: YES / NO
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+TEST 3: SCRIPT EXECUTION
+- Execution method: Command Prompt / File Explorer
+- Command used: [EXACT COMMAND]
+- Script started: YES / NO
+- Script errors: YES / NO
+- Error message: [IF YES]
+- Execution time: [SECONDS]
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+TEST 4: EXTRACTION VERIFICATION
+- Files extracted: YES / NO
+- Number of .l5x files in output folder: [N]
+- File 1 extracted: [FILENAME.l5x]
+- File 1 size: [SIZE]
+- File 2 extracted: [FILENAME.l5x]
+- File 2 size: [SIZE]
+- File integrity check: PASS / FAIL
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+TEST 5: PLC COPILOT IMPORT
+- PLC Copilot opened: YES / NO
+- File 1 imported successfully: YES / NO
+- File 1 import errors: YES / NO
+- Error message: [IF YES]
+- Ladder logic visible: YES / NO
+- All rungs displayed: YES / NO
+- File 2 imported successfully: YES / NO
+- File 2 import errors: YES / NO
+- Error message: [IF YES]
+- Ladder logic visible: YES / NO
+- All rungs displayed: YES / NO
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+TEST 6: LOGIC SIMULATION
+- Simulation mode entered: YES / NO
+- File 1 simulation run: YES / NO
+- File 1 simulation errors: YES / NO
+- File 1 logic behavior: EXPECTED / UNEXPECTED / NOT TESTED
+- File 2 simulation run: YES / NO
+- File 2 simulation errors: YES / NO
+- File 2 logic behavior: EXPECTED / UNEXPECTED / NOT TESTED
+- Result: PASS / FAIL
+- Notes: [ANY ISSUES]
+
+OVERALL RESULT: PASS / FAIL
+
+ISSUES ENCOUNTERED:
+[LIST EACH ISSUE WITH EXACT ERROR MESSAGE]
+
+RESOLUTION ATTEMPTED:
+[DESCRIBE WHAT WAS DONE TO RESOLVE]
+
+RESOLUTION OUTCOME: RESOLVED / UNRESOLVED
+
+RECOMMENDATIONS FOR NEXT TEST:
+[WHAT TO CHANGE, IMPROVE, OR VERIFY]
+
+---
+REPEAT TESTING LOG FOR EACH SESSION
